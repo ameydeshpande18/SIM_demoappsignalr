@@ -1,0 +1,13 @@
+<p>
+  signlar works!
+</p>
+<input type="text" [(ngModel)]="deviceid"> <button (click)="connect()">Connect</button>
+<br>
+<br>
+<button (click)="disconnect()">Disconnect</button>
+
+
+
+<button (click)="clearData()">Clear Data</button>
+
+{{data|json}}
